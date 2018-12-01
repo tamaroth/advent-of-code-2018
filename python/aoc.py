@@ -28,6 +28,7 @@ def solve(day):
         print('Solving all...')
         for d in DAYS:
             _solve_and_print_day(d)
+        return
     try:
         d = int(day)
         if d > len(DAYS) or d < 1:
