@@ -1,2 +1,5 @@
 # Visual studio code local files.
 .vscode
+
+# Python
+__pycache__
