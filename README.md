@@ -2,35 +2,12 @@
 
 ## Solution table
 
-| Day | Name                                                                    | Part 1 | Part 2 |
+| Day | Name                                                                    | C++ | Python |
 |:---:|:------------------------------------------------------------------------|:------:|:------:|
-| 01  |  Day01 | 0µs | 0µs |
-| 02  |  Day02 | 0µs | 0µs |
-| 03  |  Day03 | 0µs | 0µs |
-| 04  |  Day04 | 0µs | 0µs |
-| 05  |  Day05 | 0µs | 0µs |
-| 06  |  Day06 | 0µs | 0µs |
-| 07  |  Day07 | 0µs | 0µs |
-| 08  |  Day08 | 0µs | 0µs |
-| 09  |  Day09 | 0µs | 0µs |
-| 10  |  Day10 | 0µs | 0µs |
-| 11  |  Day11 | 0µs | 0µs |
-| 12  |  Day12 | 0µs | 0µs |
-| 13  |  Day13 | 0µs | 0µs |
-| 14  |  Day14 | 0µs | 0µs |
-| 15  |  Day15 | 0µs | 0µs |
-| 16  |  Day16 | 0µs | 0µs |
-| 17  |  Day17 | 0µs | 0µs |
-| 18  |  Day18 | 0µs | 0µs |
-| 19  |  Day19 | 0µs | 0µs |
-| 20  |  Day20 | 0µs | 0µs |
-| 21  |  Day21 | 0µs | 0µs |
-| 22  |  Day22 | 0µs | 0µs |
-| 23  |  Day23 | 0µs | 0µs |
-| 24  |  Day24 | 0µs | 0µs |
-| 24  |  Day25 | 0µs | 0µs |
+| 01  |  Chronal Calibration | :x: | :heavy_check_mark: |
 
-## Building
+
+## Building C++
 To build the code you will need:
  * [git](https://git-scm.com)
  * [CMake 3.6+](https://cmake.org)
@@ -46,3 +23,11 @@ Follow the steps:
  * run make: `make -j`
  * to run the solutions: `./advent/advent`
  * to run the tests: `./advent/advent tests`
+
+## Running Python code
+
+You will need [Python 3.7](https://www.python.org/downloads/release/python-370/) and then you can simply run:
+
+ * `python python/aoc.py solve ID` to solve a single day
+ * `python python/aoc.py solve all` to solve all days
+ * `python python/aoc.py test` to run all tests
