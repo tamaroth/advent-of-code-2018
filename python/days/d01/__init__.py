@@ -41,5 +41,5 @@ class Day01(Day):
 
 def get_day_01():
     return Day01(
-        read_lines_of_datafile(__file__, 'day_01_data.txt')
+        read_lines_of_datafile('day_01_data.txt')
     )
