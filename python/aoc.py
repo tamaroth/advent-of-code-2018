@@ -7,11 +7,13 @@ import nose
 import os
 
 from days.d01 import get_day_01
+from days.d02 import get_day_02
 
 
 # All days solved so far.
 DAYS = [
-    get_day_01()
+    get_day_01(),
+    get_day_02(),
 ]
 
 
