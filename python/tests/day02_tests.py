@@ -7,8 +7,8 @@ import unittest
 from days.d02 import Day02
 
 
-class Day01Tests(unittest.TestCase):
-    """Tests for `Day01`."""
+class Day02Tests(unittest.TestCase):
+    """Tests for `Day02`."""
 
     def test_solve_part_one_solves_the_puzzle_correctly(self):
         data = [
