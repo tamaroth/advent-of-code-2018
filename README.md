@@ -6,6 +6,7 @@
 |:---:|:------------------------------------------------------------------------|:------:|:------:|
 | 01  |  Chronal Calibration | :x: | :heavy_check_mark: |
 | 02  |  Inventory Management System | :x: | :heavy_check_mark: |
+| 03  |  No Matter How You Slice It | :x: | :heavy_check_mark: |
 
 ## Building C++
 To build the code you will need:
