@@ -77,6 +77,7 @@ class Day02(Day):
                 thrice = True
         return (twice, thrice)
 
+
 def get_day_02():
     """Returns the ``Day02`` for the puzzle data."""
     return Day02(
