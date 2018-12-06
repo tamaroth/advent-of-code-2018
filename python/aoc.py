@@ -9,6 +9,7 @@ import os
 from days.d01 import get_day_01
 from days.d02 import get_day_02
 from days.d03 import get_day_03
+from days.d04 import get_day_04
 
 
 # All days solved so far.
@@ -16,6 +17,7 @@ DAYS = [
     get_day_01(),
     get_day_02(),
     get_day_03(),
+    get_day_04(),
 ]
 
 
