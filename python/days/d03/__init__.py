@@ -74,7 +74,7 @@ class Day03(Day):
     """A solution to Day 3: No Matter How You Slice It"""
 
     def __init__(self, data):
-        super().__init__("Day 1: Chronal Calibration")
+        super().__init__("Day 3: No Matter How You Slice It")
 
         self._data = [Claim(line) for line in data]
         self._claims = []
