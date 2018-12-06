@@ -62,7 +62,9 @@ class Day02(Day):
         return result
 
     def _has_repeated_characters_twice_or_thrice_in_string(self, line):
-        """Returns a tuple with the number of characters in a string that appear there exactly twice and thrice."""
+        """Returns a tuple with the number of characters in a string that appear
+        there exactly twice and thrice.
+        """
         d = dict.fromkeys(line, 0)
         for c in line:
             d[c] += 1
