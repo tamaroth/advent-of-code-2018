@@ -2,9 +2,7 @@
     File operations.
 """
 
-import inspect
 import os
-import sys
 
 
 def get_real_path_of_datafile(datafile):

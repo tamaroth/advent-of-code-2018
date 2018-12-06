@@ -2,8 +2,6 @@
     Day 2: Inventory Management System
 """
 
-import collections
-
 from days import Day
 from utils.file import read_lines_of_datafile
 
