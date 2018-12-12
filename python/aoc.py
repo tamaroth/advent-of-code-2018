@@ -6,6 +6,8 @@
 import click
 import nose
 import os
+import time
+import timeit
 
 from days.d01 import get_day_01
 from days.d02 import get_day_02
@@ -22,6 +24,17 @@ DAYS = [
     get_day_04(),
     get_day_05(),
 ]
+
+
+timeit.template = """
+def inner(_it, _timer{init}):
+    {setup}
+    _t0 = _timer()
+    for _i in _it:
+        retval = {stmt}
+    _t1 = _timer()
+    return _t1 - _t0, retval
+"""
 
 
 @click.group()
@@ -61,13 +74,11 @@ def test():
 
 
 def _solve_and_print_day(d):
-    print(
-        '{}:\n\tPart one: {}\n\tPart two: {}\n'.format(
-            d.title,
-            d.solve_part_one(),
-            d.solve_part_two()
-        )
-    )
+    print(d.title)
+    part1 = timeit.Timer(d.solve_part_one).timeit(number=1)
+    print(f'\tPart one: {part1[1]} in {part1[0]}s')
+    part2 = timeit.Timer(d.solve_part_two).timeit(number=1)
+    print(f'\tPart two: {part2[1]} in {part2[0]}s')
 
 
 if __name__ == '__main__':
