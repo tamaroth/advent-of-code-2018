@@ -9,6 +9,7 @@
 | 03  |  No Matter How You Slice It | :x: | :heavy_check_mark: |
 | 04  |  Repose Record | :x: | :heavy_check_mark: |
 | 05  |  Alchemical Reduction | :x: | :heavy_check_mark: |
+| 06 | Day 6: Chronal Coordinates | :x: | :heavy_check_mark: |
 
 ## Building C++
 To build the code you will need:
@@ -31,6 +32,7 @@ Follow the steps:
 
 You will need [Python 3.7](https://www.python.org/downloads/release/python-370/) and then you can simply run:
 
- * `python python/aoc.py solve ID` to solve a single day
- * `python python/aoc.py solve all` to solve all days
- * `python python/aoc.py test` to run all tests
+ * `./setup.sh` to install all necessary packages (on windows just install the missing ones when you run the script).
+ * run `./python/aoc.py test` to run tests
+ * run `./python/aoc.py solve all` to run all solutions
+ * run `./python/aoc.py solve X` to run a solution for the specific day, where `X` is that day's number, e.g. `6`
