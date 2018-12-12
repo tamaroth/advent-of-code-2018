@@ -2,8 +2,6 @@
     Day 5: Alchemical Reduction
 """
 
-import re
-
 from days import Day
 from utils.file import read_lines_of_datafile
 
