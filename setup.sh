@@ -70,6 +70,8 @@ install_package "autopep8"
 install_package "click"
 install_package "flake8"
 install_package "nose"
+install_package "numpy"
+install_package "scipy"
 
 echo ""
 echo "Setup complete. Now activate virtualenv by executing:"
