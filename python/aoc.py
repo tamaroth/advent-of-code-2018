@@ -14,6 +14,7 @@ from days.d03 import get_day_03
 from days.d04 import get_day_04
 from days.d05 import get_day_05
 from days.d06 import get_day_06
+from days.d07 import get_day_07
 
 
 # All days solved so far.
@@ -24,6 +25,7 @@ DAYS = [
     get_day_04(),
     get_day_05(),
     get_day_06(),
+    get_day_07(),
 ]
 
 
