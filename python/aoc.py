@@ -6,7 +6,6 @@
 import click
 import nose
 import os
-import time
 import timeit
 
 from days.d01 import get_day_01
