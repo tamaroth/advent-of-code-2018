@@ -32,3 +32,14 @@ def read_lines_of_datafile(datafile):
     return read_lines_from_file(
         get_real_path_of_datafile(datafile)
     )
+
+
+def read_line_from_file(filename):
+    """Reads a single line from the file with the given filename."""
+    return open(filename).readline().rstrip('\n')
+
+
+def read_line_of_datafile(datafile):
+    return read_line_from_file(
+        get_real_path_of_datafile(datafile)
+    )
